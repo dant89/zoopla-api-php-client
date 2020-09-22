@@ -1,0 +1,36 @@
+{
+    "name": "dant89/zoopla-api-php-client",
+    "description": "A lightweight PHP client for the Zoopla API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Thorpe",
+            "email": "danthorpe@live.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.0",
+        "symfony/http-foundation": "3.4.*|4.4.*"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.7",
+        "phpunit/phpunit": "^8.4",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dant89\\ZooplaApiClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
