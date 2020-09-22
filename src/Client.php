@@ -88,7 +88,7 @@ class Client
             case 'auth':
                 $client = new AuthenticationClient($this);
                 break;
-               case 'property':
+            case 'property':
                 $client = new PropertyClient($this);
                 break;
             default:
